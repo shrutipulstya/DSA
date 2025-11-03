@@ -4,8 +4,6 @@
 
 # A prefix of a string is a substring that occurs at the beginning of the string. A substring is a contiguous sequence of characters within a string.
 
- 
-
 # Example 1:
 
 # Input: words = ["a","b","c","ab","bc","abc"], s = "abc"
@@ -22,12 +20,12 @@
 # Both of the strings are a prefix of s. 
 # Note that the same string can occur multiple times in words, and it should be counted each time.
  
-
 # Constraints:
 
 # 1 <= words.length <= 1000
 # 1 <= words[i].length, s.length <= 10
 # words[i] and s consist of lowercase English letters only.
+
 
 # BRUTE FORCE APPROACH
 # Time Complexity: O(n * m)
