@@ -28,7 +28,7 @@
 
 
 # BRUTE FORCE APPROACH
-# Time Complexity: O(n * m)
+# Time Complexity O(n * m) Space O(m²)
 
 possiblePrefixes = []
 count = 0
@@ -41,7 +41,7 @@ for i in possiblePrefixes:
 return count
 
 # OPTIMIZED APPROACH
-# Time Complexity: O(n)
+# Time Complexity O(n)  Space O(m²)
 
 prefix_set = {s[:i] for i in range(1, len(s) + 1)}
 count = 0
